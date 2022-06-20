@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bakeryreact/static/css/main.5c74eb69.chunk.css",
+    "main.js": "/bakeryreact/static/js/main.8ae494f7.chunk.js",
+    "main.js.map": "/bakeryreact/static/js/main.8ae494f7.chunk.js.map",
+    "runtime-main.js": "/bakeryreact/static/js/runtime-main.0edb085e.js",
+    "runtime-main.js.map": "/bakeryreact/static/js/runtime-main.0edb085e.js.map",
+    "static/js/2.11efd24d.chunk.js": "/bakeryreact/static/js/2.11efd24d.chunk.js",
+    "static/js/2.11efd24d.chunk.js.map": "/bakeryreact/static/js/2.11efd24d.chunk.js.map",
+    "static/js/3.be253cee.chunk.js": "/bakeryreact/static/js/3.be253cee.chunk.js",
+    "static/js/3.be253cee.chunk.js.map": "/bakeryreact/static/js/3.be253cee.chunk.js.map",
+    "index.html": "/bakeryreact/index.html",
+    "static/css/main.5c74eb69.chunk.css.map": "/bakeryreact/static/css/main.5c74eb69.chunk.css.map",
+    "static/js/2.11efd24d.chunk.js.LICENSE.txt": "/bakeryreact/static/js/2.11efd24d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0edb085e.js",
+    "static/js/2.11efd24d.chunk.js",
+    "static/css/main.5c74eb69.chunk.css",
+    "static/js/main.8ae494f7.chunk.js"
+  ]
+}
