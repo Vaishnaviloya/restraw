@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-card--container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.card-container{
+    margin: 25px auto 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card-container img {
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .card-name {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+  .card-description {
+    /* display: inline-block; */
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+
+  .card-tag {
+    float: right;
+    margin: 5px 0 0;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .card-tag:hover {
+    background: #aaa;
+    color: black;
+  }
+  .card-media {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.card-circle {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+  }
+
+
+/* .card-media{
+    height: 200px;
+    width: 200px;
+} */
