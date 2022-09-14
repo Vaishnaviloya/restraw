@@ -1,4 +1,4 @@
-const Menu = [
+const menuApi = [
     {
         id: 1,
         name: "Pani-puri",
@@ -63,14 +63,6 @@ const Menu = [
     },
     {
         id: 9,
-        name: "Paneer-tikka",
-        description: "Paneer tikka is an Indian dish made from chunks of paneer marinated in spices and grilled in a tandoor.",
-        category: "dinner",
-        image: "https://spiceandcolour.com/wp-content/uploads/2020/06/paneer-tikka-1.jpg",
-
-    },
-    {
-        id: 10,
         name: "Manchurian",
         description: "Manchurian is a class of Indo-chinese dishes made by roughly chopping and deep-frying a main ingredient like cauliflower, paneer and then sautéeing it in a sauce flavored with soy sauce.",
         category: "dinner",
@@ -79,4 +71,4 @@ const Menu = [
     }
 ]
 
-export default Menu
+export default menuApi

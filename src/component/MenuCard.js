@@ -1,37 +1,38 @@
-import React from 'react'
+import React from "react";
 
+const MenuCard = ({ menuData }) => {
+  //   console.log(menuData);
 
-const MenuCard = ({ menu }) => {
-    return (
-        <>
-            <section className="main-card--container">
-                {
-                    menu.map((cur) => {
+  return (
+    <>
+      <section className="main-card--cointainer">
+        {menuData.map((curElem) => {
+          const { id, name, category, image, description } = curElem;
 
-                        const { id, name, description, image, price } = cur
+          return (
+            <>
+              <div className="card-container" key={id}>
+                <div className="card ">
+                  <div className="card-body">
+                    <span className="card-number card-circle subtle">{id}</span>
+                    <span className="card-author subtle"> {category}</span>
+                    <h2 className="card-title"> {name} </h2>
+                    <span className="card-description subtle">
+                      {description}
+                    </span>
+                    <div className="card-read">Read</div>
+                  </div>
+                  <img src={image} alt="images" className="card-media" />
 
-                        return (
-                            <>
-                                <div className="card-container" key = {id}>
-                                    <div className="card">
-                                        <div className="card-body">
-                                            <span className="card-id card-circle">{id}</span>
-                                            <h1 className="card-name">{name}</h1>
-                                            <span className="description">{description}</span>
-                                            <img src={image} alt="" className="card-media" />
-                                            <span className="price">{price}</span>
-                                            <span className="card-tag">Order Now</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </>
-                        )
-                    })
-                }
+                  <span className="card-tag  subtle">Order Now</span>
+                </div>
+              </div>
+            </>
+          );
+        })}
+      </section>
+    </>
+  );
+};
 
-            </section>
-        </>
-    )
-}
-
-export default MenuCard
+export default MenuCard;
